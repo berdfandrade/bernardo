@@ -1,14 +1,24 @@
 body {
   background: #f7f7f7;
+  font-family: Verdana;
 }
 #title, .subtitle, .post_title {
   color: #505050;
+}
+
+.title{
+  font-size: 40px;
+  font-transform: uppercase;
 }
 
 .photo{
   border-radius: 50%
 }
 
+a{
+  text-decoration: underline;
+  color: #505050
+}
 .post_title {
   font-size: 16px;
   font-style: italic;
@@ -27,8 +37,14 @@ body {
 .post_content{
   margin: 0;
   margin_bottom: 15px;
+  text-transform: capitalize
 }
 
 .post_image{
   margin-bottom: 15px
+}
+
+.contact_list{
+  list-style-type: none;
+  padding-left: 15px
 }
