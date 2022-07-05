@@ -1,7 +1,11 @@
 body {
   background: #f7f7f7;
   font-family: Verdana;
+  width: 900px; /* Isso aqui determina o tamanho do corpo do post */
+  margin: auto;
 }
+
+
 #title, .subtitle, .post_title {
   color: #505050;
 }
@@ -38,13 +42,16 @@ a{
   margin: 0;
   margin_bottom: 15px;
   text-transform: capitalize
+  text-align: center;
+
 }
 
 .post_image{
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  width: 100%; /* isso vai fazer a imagem se apdtar ao tamanho do post */
 }
 
 .contact_list{
   list-style-type: none;
-  padding-left: 15px
+  padding-left: 15px;
 }
