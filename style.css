@@ -6,7 +6,12 @@ body {
 }
 
 
-#title, .subtitle, .post_title {
+#title, .post_title {
+  text-align: center;
+  color: #505050;
+}
+
+.subtitle{
   color: #505050;
 }
 
@@ -15,8 +20,18 @@ body {
   font-transform: uppercase;
 }
 
+.center .photo{
+
+}
+
 .photo{
-  border-radius: 50%
+  display: block;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 50%;
+  border-radius: 50%;
 }
 
 a{
@@ -41,7 +56,7 @@ a{
 .post_content{
   margin: 0;
   margin_bottom: 15px;
-  text-transform: capitalize
+  text-transform: capitalize;
   text-align: center;
 
 }
@@ -54,5 +69,5 @@ a{
 .contact_list{
   list-style-type: none;
   padding-left: 15px;
+  padding-bottom: 15px;
 }
- 
