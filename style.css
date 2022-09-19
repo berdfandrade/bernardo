@@ -1,6 +1,7 @@
+
 body {
-  background: #f7f7f7;
-  font-family: Verdana;
+  background: #F7F7F7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 900px; /* Isso aqui determina o tamanho do corpo do post */
   margin: auto;
 }
@@ -20,11 +21,8 @@ body {
   font-transform: uppercase;
 }
 
-.center .photo{
-
-}
-
 .photo{
+  margin-top: 30px;
   display: block;
   height: 200px;
   margin-left: auto;
@@ -39,6 +37,7 @@ a{
   color: #505050
 }
 .post_title {
+  text-align: center;
   font-size: 16px;
   font-style: italic;
   margin: 0;
@@ -48,9 +47,9 @@ a{
 .post {
   background: #FFF;
   padding: 15px;
-  border: 3px solid #505050;
+  border: 3px dashed #505050;
   margin-bottom: 15px;
-  border-radius: 5px 10px;
+  border-radius: 5px 5px;
 }
 
 .post_content{
